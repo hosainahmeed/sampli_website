@@ -7,7 +7,7 @@ function SampleFeatureCard(item) {
     <div
       className={`${
         item?.spacing
-          ? 'relative h-full'
+          ? 'relative '
           : 'relative h-full shadow-lg overflow-hidden flex md:border-none border-2 rounded-3xl items-start justify-between flex-col'
       }`}
     >
